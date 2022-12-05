@@ -6,6 +6,7 @@ b = int(input("Enter value of b: "))
 c = int(input("Enter value of c: "))
 
 det = b**2 - 4*a*c
+# det should be positive
 
 if det < 0:
 	print("Root does not exist")
